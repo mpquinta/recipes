@@ -1,6 +1,15 @@
 h1 {
     font-family: 'Libre Baskerville', serif;
     font-family: 'Nunito', sans-serif;
+    font-size: 5rem;
+    text-transform: lowercase;
     color: red;
     text-shadow: 5px 1px 10px yellow
+}
+
+#homepage {
+    background-image: url("./images/carasol.png");
+    background-size: cover;
+    width: 90vw;
+    height: 90vh;
 }
