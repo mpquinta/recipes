@@ -7,14 +7,24 @@ h1 {
     text-shadow: 5px 1px 10px yellow
 }
 
-#bg {
-    position: absolute;
-    /* background-image: url("./images/carasol.png");
-    background-size: cover; */
-    
+.bg-image {
+    left: 210px;
+    top: 198px;
+    width: 1000px;
+    height: auto;
+    overflow: hidden;
 }
 
-.bg-image {
-    max-width: 100%;
-    height: auto;
+.recipes {
+    position: absolute;
+    background-color: hotpink;
+    top: 420px;
+    left: 25%;
+    height: 300px;
+    width: auto;
+    /* aspect-ratio: 100/29; */
+}
+
+.food_pics {
+    width: 250px;
 }
