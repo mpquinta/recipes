@@ -2,6 +2,16 @@
     width: 1000px;
 }
 
+.recipe-title {
+    position: absolute;
+    /* background-color: aqua; */
+    font-size: 10px;
+    top: 24px;
+    left: 100px;
+    width: 400px;
+    height: 95px;
+}
+
 h1 {
     font-family: 'Libre Baskerville', serif;
     font-family: 'Nunito', sans-serif;
@@ -29,4 +39,14 @@ h1 {
 
 .food_pics {
     width: 250px;
+}
+
+.recipe-info {
+    position: absolute;
+    /* background-color: aqua; */
+    width: 460px;
+    height: 420px;
+    top: 80px;
+    left: 480px;
+    overflow: scroll;
 }
