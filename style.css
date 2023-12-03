@@ -1,3 +1,7 @@
+#bg {
+    width: 1000px;
+}
+
 h1 {
     font-family: 'Libre Baskerville', serif;
     font-family: 'Nunito', sans-serif;
@@ -8,21 +12,19 @@ h1 {
 }
 
 .bg-image {
-    left: 210px;
-    top: 198px;
     width: 1000px;
-    height: auto;
+    height: 563px;
     overflow: hidden;
 }
 
 .recipes {
     position: absolute;
-    background-color: hotpink;
+    background-color: transparent; 
     top: 420px;
-    left: 25%;
+    left: 115px;
     height: 300px;
-    width: auto;
-    /* aspect-ratio: 100/29; */
+    width: 800px;
+    /* overflow: auto; */
 }
 
 .food_pics {
